@@ -7,8 +7,6 @@ Your goal is integrate MongoDB into your routes so that you can permenantely sav
 
 The master branch of this repo gives us the state of code at the end of Sprint three.
 
-One important difference between the `toEatly_mongoose` project and the original `toEatly` project is that we have globally changed `foods.id` to `foods._id` because of a strict naming convention in `mongoose`.
-
 
 ##Step 0:  Install MongoDB and mongoose
 
@@ -175,3 +173,9 @@ app.get("/allthefoods", function(req, res){
 
 })
 ```
+
+*NOTE: You will need to change `foods.id` to `foods._id` because of a strict naming convention in `mongoose`.*
+
+
+
+
